@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color: #aa9898;
+}
+
+p strong {
+  color: black;
+}
+
+/* CSS styles for the card container */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://media.istockphoto.com/id/1387945043/photo/computer-technology-background-digital-data-flow-network-connection-structure-big-data.webp?b=1&s=170667a&w=0&k=20&c=Sd255zPE6kBUU_EE3omdvL5GNWQdfSeOBmHBdEObCJc=");
+  background-size: cover;
+}
+
+/* CSS styles for the card */
+.card {
+  background-color: #fff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

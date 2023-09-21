@@ -1,44 +1,89 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  height: 100vh;
-  overflow: hidden;
+  padding: 0;
+  background-color: #07535b;
 }
 
-h1 {
-  font-size: 36px;
-  color: #333;
-  text-align: center;
-  margin-top: 20px;
-}
-
-h2 {
+.header-toolbar {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  min-height: 4rem;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  opacity: 1;
+  width: 100%;
+  justify-content: space-between;
 }
 
-p {
-  color: #aa9898;
+.my-logo {
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
-p strong {
-  color: black;
+.my-logo:hover {
+  text-decoration: none;
 }
 
-/* CSS styles for the card container */
-.card-container {
+.my-logo:active {
+  text-decoration: none;
+}
+
+.my-logo:visited {
+  text-decoration: none;
+}
+.content-headline-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-image: url("https://media.istockphoto.com/id/1387945043/photo/computer-technology-background-digital-data-flow-network-connection-structure-big-data.webp?b=1&s=170667a&w=0&k=20&c=Sd255zPE6kBUU_EE3omdvL5GNWQdfSeOBmHBdEObCJc=");
-  background-size: cover;
+  text-align: center;
+  background: url("../images/headline_bg.svg");
+  background-repeat: no-repeat;
+  min-height: 40vh;
+}
+.content-headline-section > h1 {
+  color: #9ec42b;
+  font-weight: bold;
+  line-height: 72px;
+  font-size: 48px;
+  padding: 1.2rem;
+  font-style: normal;
+  letter-spacing: 0.37px;
+  text-align: center;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
 }
 
-/* CSS styles for the card */
-.card {
-  background-color: #fff;
-  width: 300px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.content-headline-section > h2 {
+  color: #edecff;
+  font-weight: 500;
+  padding: 1rem;
+  text-align: center;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-style: normal;
+}
+
+.content-headline-section > p {
+  color: #c8c8d4;
+  padding: 2rem;
+  text-align: center;
+  line-height: 28px;
+  font-size: 20px;
+  background-color: transparent;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+}
+
+.bars-icons {
+  color: #fff;
 }

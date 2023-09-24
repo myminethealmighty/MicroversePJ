@@ -1,10 +1,4 @@
-<a name="readme-top"></a>
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="images/murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-</div>
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 # Microverse PJ-1
